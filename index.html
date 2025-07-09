@@ -202,12 +202,9 @@
 
     <script>
         // URL cho tệp chứa danh sách các liên kết MP4.
-        const GITHUB_MP4_LINKS_URL = 'https://github.com/X102/ThaoNguyenluyennghe/blob/main/github_mp4_links.txt';
-        
-        // LƯU Ý QUAN TRỌNG: JavaScript không thể đọc trực tiếp tệp .docx.
-        // Bạn cần chuyển đổi 'Фразы.docx' thành tệp văn bản thuần túy (.txt) và tải nó lên GitHub.
+        const GITHUB_MP4_LINKS_URL = 'https://raw.githubusercontent.com/X102/ThaoNguyenluyennghe/refs/heads/main/github_mp4_links.txt';
         // Đảm bảo URL này trỏ đến tệp .txt đã chuyển đổi của bạn.
-        const PHRASES_DOCX_URL = 'https://github.com/X102/ThaoNguyenluyennghe/blob/main/Фразы.txt'; 
+        const PHRASES_DOCX_URL = 'https://raw.githubusercontent.com/X102/ThaoNguyenluyennghe/refs/heads/main/Фразы.txt'; 
 
         // Biểu thức chính quy để trích xuất speakerId và phraseId từ URL video.
         // Ví dụ: recordings/1.108.mp4 -> speakerId: 1, phraseId: 108
